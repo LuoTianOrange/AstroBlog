@@ -21,7 +21,7 @@ export const siteConfig: SiteConfig = {
   },
   favicon: [    // Leave this array empty to use the default favicon
     {
-      src: 'assets/images/icon.png',    // Path of the favicon, relative to the /public directory
+      src: '../favicon/icon-32.png',    // Path of the favicon, relative to the /public directory
       // theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
       sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
     }
@@ -35,11 +35,11 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.Gallery,
     LinkPreset.Friends,
     LinkPreset.About,
-    // {
-    //   name: 'GitHub',
-    //   url: 'https://github.com/saicaca/fuwari',     // Internal links should not include the base path, as it is automatically added
-    //   external: true,                               // Show an external link icon and will open in a new tab
-    // },
+    {
+      name: '旧博客',
+      url: 'https://blog.nekoorange.cn',     // Internal links should not include the base path, as it is automatically added
+      external: true,                               // Show an external link icon and will open in a new tab
+    },
   ],
 }
 
@@ -53,17 +53,17 @@ export const profileConfig: ProfileConfig = {
       icon: 'fa6-brands:twitter',       // Visit https://icones.js.org/ for icon codes
                                         // You will need to install the corresponding icon set if it's not already included
                                         // `pnpm add @iconify-json/<icon-set-name>`
-      url: 'https://twitter.com',
+      url: 'https://x.com/RaitoOrange',
     },
     {
-      name: 'Steam',
-      icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
+      name: 'Bilibili',
+      icon: 'fa6-brands:bilibili',
+      url: 'https://space.bilibili.com/32256434',
     },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
-      url: 'https://github.com/saicaca/fuwari',
+      url: 'https://github.com/LuoTianOrange/',
     },
   ],
 }

@@ -1,9 +1,21 @@
-# About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+# 关于
+欢迎来到橘橘博客3.0，这里是灯火橘，可以叫我**橘猫**或者**橘子**
 
-::github{repo="saicaca/fuwari"}
+::github{repo="LuoTianOrange/LuoTianOrange"}
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+- 软件工程专业，主要学习前端(Vue)，后端会的不多
+- 喜欢绘画，以前画过一些小东西
+- 最近喜欢喝酸奶和吃干果
+- 主要玩FPS，塔防，沙盒，生存类游戏，比如**明日方舟**，**彩虹六号**，**BloonsTD6**，**Minecraft**，**泰拉瑞亚**，前一段时间对**环世界**和**星露谷**也很感兴趣，像**Helldrives2**这样的也会玩。
+
+## 项目展示
+
+::github{repo="LuoTianOrange/OnlineShopingSystem"}
+
+::github{repo="LuoTianOrange/HGModWiki"}
+
+::github{repo="LuoTianOrange/VsingerDemo"}
+
+::github{repo="LuoTianOrange/SCPSL-CoinDraw"}
+
+::github{repo="LuoTianOrange/RedBook"}
