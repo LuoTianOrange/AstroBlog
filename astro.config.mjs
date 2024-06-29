@@ -32,7 +32,7 @@ const oklchToHex = str => {
 // https://astro.build/config
 export default defineConfig({
   site: "https://LuoTianOrange.github.io",
-  base: "/",
+  base: "/AstroBlog",
   trailingSlash: "always",
   integrations: [tailwind(), swup({
     theme: false,
