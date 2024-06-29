@@ -5,7 +5,6 @@ enum I18nKey {
   search = 'search',
 
   tags = 'tags',
-  categories = 'categories',
   recentPosts = 'recentPosts',
 
   comments = 'comments',
@@ -32,6 +31,8 @@ enum I18nKey {
   author = 'author',
   publishedAt = 'publishedAt',
   license = 'license',
+  gallery = "gallery",
+  friends = "friends",
 }
 
 export default I18nKey
