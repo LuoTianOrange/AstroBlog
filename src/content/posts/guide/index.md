@@ -4,7 +4,7 @@ published: 2024-04-01
 description: "如何使用该博客模板."
 image: "./cover.jpeg"
 tags: ["Fuwari"]
-category: Guides
+category: 教程
 draft: false
 ---
 
