@@ -6,7 +6,7 @@ import { getEntry } from 'astro:content'
 import {i18n} from "../i18n/translation";
 import I18nKey from "../i18n/i18nKey";
 import Markdown from "@components/misc/Markdown.astro";
-
+import FriendsMain from "@components/vue/friends/FriendsMain.vue";
 const aboutPost = await getEntry('spec', 'about')
 
 const { Content } = await aboutPost.render()
@@ -16,8 +16,9 @@ const { Content } = await aboutPost.render()
     <div class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-32">
         <div class="card-base z-10 px-9 py-6 relative w-full ">
             <Markdown class="mt-2">
-                <h2>还没写，别急</h2>
+                <h1>友链</h1>
             </Markdown>
+            <FriendsMain />
         </div>
     </div>
 </MainGridLayout>
